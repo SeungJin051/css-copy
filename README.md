@@ -18,7 +18,7 @@ css-copy
 ```
 
 <details>
-<summary><b>2024년 12월 29일 개발 내용</b></summary>
+<summary><b>1일차 개발 내용</b></summary>
 
 ### **On/Off 버튼 구현**
 
@@ -52,5 +52,31 @@ css-copy
 ---
 
 ### **UI 스타일링**
+
+</details>
+
+<details>
+<summary><b>2일차 개발 내용 (추가 기능 구현 필요)</b></summary>
+
+### **사이드바 구현(시작, 정지, 종료)**
+
+- 화면 우측 중단에 CSS Copy 기능 사이드바 추가
+
+---
+
+### **popup UI 구현 종료 후 다시 시작하는 기능**
+
+- 팝업 화면에서 Start 클릭시 다시 사이드바 UI 다시 표현
+
+---
+
+### **CSS 정보 시각화 창**
+
+- 마우스를 움직이면 따라오는 CSS 창
+- 스페이스바를 누르면 해당 CSS 창을 스냅샷을 찍음
+  - 스냅샷의 CSS 창에서 CSS Copy 기능
+  - 스냅샷의 CSS 창에서 CodePen 미리보기 기능
+
+---
 
 </details>
