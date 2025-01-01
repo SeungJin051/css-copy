@@ -2,18 +2,15 @@
   "manifest_version": 3,
   "name": "CSS Copy",
   "version": "1.0",
-  "permissions": [
-    "storage",
-    "activeTab"
-  ],
+  "permissions": ["storage", "activeTab"],
+  "host_permissions": ["<all_urls>"],
   "background": {
     "service_worker": "background.js"
   },
   "content_scripts": [
     {
       "matches": ["<all_urls>"],
-      "js": ["content.js"],
-      "type": "module"
+      "js": ["content.js"]
     }
   ],
   "action": {
@@ -22,5 +19,6 @@
   },
   "icons": {
     "128": "images/css-copy-logo.png"
-  }
+  },
+  "description": "Easily copy and visualize CSS styles of HTML elements."
 }
